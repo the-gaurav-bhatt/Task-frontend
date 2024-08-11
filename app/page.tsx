@@ -19,7 +19,7 @@ export default function Home() {
       setError(null);
 
       try {
-        const response = await fetch("http://localhost:3001/api/product");
+        const response = await fetch("https://task-backend-jg80.onrender.com/api/product");
 
         if (!response.ok) {
           throw new Error("Failed to fetch products.");
