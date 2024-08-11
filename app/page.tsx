@@ -54,7 +54,7 @@ export default function Home() {
               className="w-full h-48 object-cover rounded-t-lg"
             />
             <div className="px-2 py-4">
-              <h3 className="text-lg font-medium text-gray-900">
+              <h3 className="text-lg font-medium text-emerald-500">
                 {product.name}
               </h3>
               <p className="mt-1 text-sm text-gray-600">${product.price}</p>
